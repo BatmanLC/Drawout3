@@ -1,1 +1,103 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="19" x="433" y="32">
+    <next>
+      <block type="oled_setcursor" id="34" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="120">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="127">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_setend" id="44" inline="true">
+            <value name="ENDX">
+              <block type="math_number" id="134">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <value name="ENDY">
+              <block type="math_number" id="141">
+                <field name="NUM">60</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_linerect" id="53">
+                <field name="OBJECT">LINE</field>
+                <next>
+                  <block type="oled_setcursor" id="62" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="148">
+                        <field name="NUM">20</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="198">
+                        <field name="NUM">60</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_setend" id="77" inline="true">
+                        <value name="ENDX">
+                          <block type="math_number" id="170">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <value name="ENDY">
+                          <block type="math_number" id="177">
+                            <field name="NUM">30</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_linerect" id="86">
+                            <field name="OBJECT">LINE</field>
+                            <next>
+                              <block type="oled_setcursor" id="95" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="217">
+                                    <field name="NUM">100</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="230">
+                                    <field name="NUM">30</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_setend" id="104" inline="true">
+                                    <value name="ENDX">
+                                      <block type="math_number" id="237">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                    <value name="ENDY">
+                                      <block type="math_number" id="244">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_linerect" id="113">
+                                        <field name="OBJECT">LINE</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
